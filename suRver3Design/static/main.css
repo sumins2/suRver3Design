@@ -63,15 +63,14 @@ body {
 
 /* search bar */
 .SearchDiv {
-  margin-top: 44px;
-  margin-bottom: 42px;
+  margin: 42px 0;
 }
 .SearchBar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 20px 14px 20px;
+  padding: 12px 20px;
   border: 1px solid #8b0128;
   border-radius: 24px;
   background: white;
@@ -166,6 +165,7 @@ button {
   border: none;
   box-shadow: 0 3px 15px 0 rgb(0 0 0 / 16%);
   background-color: #ffffff;
+  max-width: 900px;
 }
 .FirstNotice {
   font-size: 14px;
@@ -184,19 +184,12 @@ button {
   border: solid 1px #707070;
   background-color: #d5a3af;
   margin-top: 12px;
+  max-width: 900px;
 }
 .AD {
-  width: 100%;
+  width: 100vw;
   height: 44px;
   border: solid 1px #707070;
   background-color: #d5a3af;
   margin-top: 42px;
-}
-Footer {
-  box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.16);
-  background-color: #ffffff;
-  position: fixed;
-  width: 100%;
-  height: 10vh;
-  bottom: 0;
 }
