@@ -4,7 +4,10 @@
 body {
   margin: 0;
 }
-h1{
+p {
+  margin: 0;
+}
+/* h1 {
   font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
@@ -14,9 +17,8 @@ h1{
   text-align: left;
   color: #8b0028;
   margin: 0;
-
 }
-p{
+p {
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -25,9 +27,8 @@ p{
   letter-spacing: normal;
   text-align: left;
   color: #707070;
-
 }
-a{
+a {
   margin-top: 30px;
   cursor: pointer;
   color: #8b0128;
@@ -37,7 +38,7 @@ a{
   text-decoration: none;
 }
 
-h3{
+h3 {
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -48,10 +49,10 @@ h3{
   color: #8b0028;
   margin: 0;
 }
-button{  
+button {
   width: 306px;
   height: 48px;
-  
+
   border-radius: 3px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 
@@ -64,10 +65,8 @@ button{
   letter-spacing: 0.19px;
   text-align: center;
   margin: 9px 0;
-  
 }
-.white_btn{
-
+.white_btn {
   border-radius: 3px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border: solid 1px #8b0028;
@@ -75,15 +74,30 @@ button{
   color: #8b0028;
   margin-top: 170px;
 }
-.red_btn{
-  
+.red_btn {
   background-color: #8b0028;
   color: #ffffff;
+} */
+/* 아이콘 여백 제거 */
+.material-icons {
+  line-height: 0.5px;
 }
-.wrapper{
+section {
+  background-color: blanchedalmond;
+  width: 82vw;
+  margin: 0 34px 0 34px;
+  min-width: 300px;
+  max-width: 1023px;
+}
+.Page {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  align-content: flex-start;
+  align-items: center;
   justify-content: flex-start;
+  width: 100vw;
+  min-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: aqua;
+  margin-bottom: 10vh;
 }
