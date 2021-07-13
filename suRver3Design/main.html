@@ -13,60 +13,63 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./static/main.css" />
+    <link rel="stylesheet" href="./suRver3Design/static/index.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="Wrapper">
-      <div class="CaseHeader">
+    <div class="Page">
+      <section class="CaseHeader">
         <div class="LoginDiv">
           <span id="PersonIcon" class="material-icons"> person </span>
           <p class="LoginText">로그인하기</p>
         </div>
         <span id="sideBar" class="material-icons"> menu </span>
-      </div>
+      </section>
 
-      <div class="SearchDiv">
+      <section class="SearchDiv">
         <div class="SearchBar">
-          <input type="text" placeholder="과목명, 학수번호, 교수명으로 검색" />
+          <input
+            class="SearchInput"
+            type="text"
+            placeholder="과목명, 학수번호, 교수명으로 검색"
+          />
           <button type="submit">
             <span id="SearchIcon" class="material-icons"> search </span>
           </button>
         </div>
-      </div>
+      </section>
 
       <div class="Line"></div>
-      <div class="FeedFlex">
-        <!-- feed aline center -->
-        <div class="TitleDiv">
-          <div class="NoticeFlex">
-            <p class="MainText">공지사항</p>
-            <p class="CaseText">+3</p>
-          </div>
-          <p class="More">+ more</p>
+      <!-- feed aline center -->
+      <section class="TitleDiv">
+        <div class="NoticeFlex">
+          <p class="MainText">공지사항</p>
+          <p class="CaseText">+3</p>
         </div>
-        <div class="Notice">
-          <p class="FirstNotice">첫번째 공지사항 제목</p>
-        </div>
-        <div class="TitleDiv">
-          <p class="MainText">스토리</p>
-          <p class="More">+ more</p>
-        </div>
-        <div class="StoryCard"></div>
-      </div>
-    </div>
-    <div class="AD"></div>
-    <footer>
-      <div class="Home">
-        <span id="RedIcon"></span>
-        <p id="red" class="Footer">HOME</p>
-      </div>
-      <div class="Favorite">
-        <span id="grayIcon"></span>
-        <p id="gray" class="Footer">즐겨찾기</p>
-      </div>
-    </footer>
+        <p class="More">+ more</p>
+      </section>
+      <button class="Notice">
+        <p class="FirstNotice">첫번째 공지사항 제목</p>
+      </button>
+      <section class="TitleDiv">
+        <p class="MainText">스토리</p>
+        <p class="More">+ more</p>
+      </section>
+      <div class="StoryCard"></div>
 
-    <span class="material-icons"> account_balance </span>
+      <div class="AD">
+        <p>Google AD</p>
+      </div>
+      <footer>
+        <div class="Tap">
+          <span id="RedIcon" class="material-icons"> home </span>
+          <p id="Red" class="Footer">HOME</p>
+        </div>
+        <div class="Tap">
+          <span id="GrayIcon" class="material-icons"> star_border </span>
+          <p id="Gray" class="Footer">즐겨찾기</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
