@@ -22,12 +22,13 @@ body {
 
 #arrow-back{
     color: #8b0128;
-    font-size: 16pt;
+    font-size: 16px;
+    margin-right: 3px;
 }
 
 .page-name p{
     color: #8b0128;
-    font-size: 16pt;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -43,12 +44,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 54px 0;
+    margin: 40px 0;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 3px 15px 0 rgb(0 0 0 / 16%);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.16);
     box-sizing: border-box;
-    padding: 30px 25px;
+    padding: 23px 22px;
 }
 
 .info-text {
@@ -61,13 +62,13 @@ body {
 }
 
 #info-name {
-    font-size: 14pt;
+    font-size: 14px;
     font-weight: bold;
 }
 
 #info-guide {
-    font-size: 11pt;
-    margin: 10px 0;
+    font-size: 11px;
+    margin: 5px 0;
 }
 
 .detail-info {
@@ -76,7 +77,8 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    /* max-width: ; */
+    max-width: 262px;
+    min-height: 60px;
     margin: 20px 0;
 }
 
@@ -85,12 +87,12 @@ body {
 .grade,
 .major2 {
     border: 1px solid #8b0128;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-left-radius: 58px;
+    border-top-right-radius: 58px;
+    border-bottom-right-radius: 58px;
     box-sizing: border-box;
-    font-size: 12pt;
-    padding: 2px 10px;
+    font-size: 12px;
+    padding: 2px 13px;
     margin: 0 5px;
 }
 
@@ -114,10 +116,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 14pt;
+    font-size: 14px;
     font-weight: bold;
     box-sizing: border-box;
-    padding: 14px;
+    padding: 10px 0;
     margin: 15px 0;
 }
 
@@ -126,11 +128,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 10px;
+    margin: 5px 0;
 }
 
 .semester {
-
+    font-size: 12px;
+    color: #707070;
 }
 
 .alarm-content {
@@ -138,21 +141,41 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* box-shadow: ; */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 31px 24px 18px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
+    margin: 5px;
 }
 
 .alarm-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
 
+.alarm-text p{
+    font-size: 14px;
+    color: #707070
 }
 
 #clock {
-    color: #8b0128
+    color: #8b0128;
+    font-size: 18px;
+    margin-left: 3px;
 }
 
 .alarm-number {
-    color: #8b0128
+    color: #8b0128;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .delete {
-    /* color: gray; */
+    margin-top: 70px;
+    font-size: 12px;
+    color: #707070;
 }
